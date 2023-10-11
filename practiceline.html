@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="apple-itunes-app" content="app-id=1636708833" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>练练线条</title>
+
+    <style>
+        html,
+        body,
+        #content {
+            margin: 0px;
+            height: 100%;
+            font-family: sans-serif;
+            font-weight: lighter;
+            color: #636363;
+            background-color: #fdfdfd;
+            text-align: center;
+            line-height: 1.4;
+        }
+
+        #splash {
+            height: 100%;
+            width: 100%;
+            display: table;
+            table-layout: fixed;
+            max-width: 700px;
+            margin: auto;
+            position: relative;
+        }
+
+        @media screen and (min-width: 700px) {
+            #splash>div {
+                display: table-cell;
+                vertical-align: middle;
+                padding: 1em;
+                height: 100%;
+            }
+
+            #splash #left {
+                text-align: right;
+            }
+
+            #splash #right {
+                text-align: left;
+            }
+
+            #splash .iphone {
+                width: 288px;
+                height: 576px;
+            }
+
+            #screenshots img {
+                max-width: 200px;
+            }
+
+            #like-container {
+                position: absolute;
+                top: 100%;
+                right: 20px;
+                margin-top: -50px;
+            }
+        }
+
+        a {
+            cursor: pointer;
+        }
+
+        #chevron {
+            position: absolute;
+            left: 50%;
+            top: 100%;
+            margin-top: -2em;
+            color: #636363;
+            opacity: 0.5;
+            margin-left: -0.5em;
+        }
+
+        @media screen and (max-width: 700px) {
+            #chevron {
+                display: none;
+            }
+
+            #splash .iphone {
+                width: 192px;
+                height: 384px;
+                display: inline-block;
+            }
+
+            #splash #left {
+                padding: 10px;
+            }
+
+            #screenshots img {
+                max-width: 100px;
+            }
+
+            #splash .appstore {
+                display: none;
+            }
+        }
+
+        img.appstore {
+            max-width: 120px;
+        }
+
+        .iphone {
+            background-image: url('./5s.png');
+            background-size: contain;
+            position: relative;
+            width: 720px;
+            height: 1440px;
+        }
+
+        .iphone img {
+            position: absolute;
+            top: 17.9%;
+            left: 14%;
+            width: 73%;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-family: "Raleway", sans-serif;
+            font-weight: normal;
+        }
+
+        #icon-row {
+            margin: 30px;
+            margin-top: 40px;
+            margin-bottom: 80px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+            position: relative;
+        }
+
+        #icon-row #icon-container {
+            position: absolute;
+            width: 80px;
+            height: 80px;
+            left: 50%;
+            top: 50%;
+            margin-left: -50px;
+            margin-top: -50px;
+            border: 10px solid #fdfdfd;
+        }
+
+        #icon-row img {
+            width: 100%;
+            border-radius: 19px;
+            box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+        }
+
+        #description {
+            margin: auto;
+            width: 100%;
+            max-width: 700px;
+            text-align: left;
+            white-space: pre-wrap;
+        }
+
+        #description span {
+            text-align: center;
+            font-weight: 400;
+        }
+
+        #screenshots {
+            margin-bottom: 2em;
+        }
+
+        #screenshots img {
+            border: 1px solid white;
+            box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.5);
+            margin: 1em;
+        }
+
+        #attribution {
+            font-size: small;
+            padding: 2em;
+        }
+
+        #attribution a {
+            color: #636363;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div id='chevron' class='fa fa-chevron-down'></div>
+    <div id='splash'>
+        <div id='left'>
+            <h1>练练线条</h1>
+            <p>素描、插画的控笔练习画画软件</p>
+            <a href='https://apps.apple.com/cn/app/id1636708833'>
+                <img class='appstore' src='./appstore.png' alt='Download on the Apple App Store' />
+            </a>
+        </div>
+        <div id='right'>
+            <div class='iphone'>
+                <img src='./497x883bb.png' />
+            </div>
+        </div>
+    </div>
+
+    <div id='icon-row'>
+        <div id='icon-container'>
+            <img src='./512x512bb.jpg' />
+        </div>
+    </div>
+
+    <div id='screenshots'>
+        <img src=jietu1.png />
+        <img src=jietu2.png />
+        <img src=jietu3.png />
+    </div>
+
+    <p id='description'>
+        <span>【线条控笔练习】</span>
+        设置了基础的和进阶的线条练习册，包括直线类、曲线类、直曲综合类练习内容
+
+        <span>【线条步骤拆解】</span>
+        对于复杂的线条形状，设有步骤拆解，能一目了然地知道该形状如何画出来
+        
+        <span>【三种练习方式】</span>
+        通过“描写”、“连点”、“临摹”三种由易到难的练习方式，逐渐掌握该线条的练习
+        
+        <span>【一键对比答案】</span>
+        将答案与练习的线条叠加对比，来纠正画得不够好的地方
+        
+        <span>【保存练习记录】</span>
+        保存练习记录，通过历史存档查看每一次进步
+        
+        <span>【分享导出打卡】</span>
+        导出可生成练习记录，实现控笔练习打卡
+
+        如果有任何问题和建议可在应用内提交反馈或联系邮箱：tommytang998@163.com</p>
+
+    <p>
+        <a href='https://apps.apple.com/cn/app/id1636708833'>
+            <img class='appstore' src='./appstore.png' alt='Download on the Apple App Store' />
+        </a>
+    </p>
+
+
+    <p id='copyright'>&copy; 祥 汤 </p>
+
+    <p id='attribution'> <a href=''></a></p>
+
+    </div>
+
+</body>
+
+</html>
